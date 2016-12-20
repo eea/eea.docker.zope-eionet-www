@@ -15,7 +15,8 @@ COPY src/versions.cfg \
      src/base.cfg $ZOPE_HOME/
 
 RUN mkdir -p $ZOPE_HOME/products \
-    && mkdir -p $ZOPE_HOME/var/log/ldap
+    && mkdir -p $ZOPE_HOME/var/log/ldap \
+    && mkdir -p $ZOPE_HOME/var/styles
 
 RUN svn co https://svn.eionet.europa.eu/repositories/Zope/bundles/Eionet/trunk products
 

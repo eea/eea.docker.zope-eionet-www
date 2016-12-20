@@ -1,3 +1,10 @@
+1.1 (December 2016)
+-------------------
+
+* create directory `styles` to server from disk the EIONET styles
+    [nituacor]
+
+
 1.0 (December 2016)
 -------------------
 
