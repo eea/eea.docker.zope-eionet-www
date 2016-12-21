@@ -1,3 +1,8 @@
+1.2 (December 2016)
+-------------------
+
+* upgrade eea.ldapadmin to 1.5.5 [nituacor]
+
 1.1 (December 2016)
 -------------------
 
