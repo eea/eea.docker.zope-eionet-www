@@ -1,3 +1,7 @@
+1.4 (December 2016)
+-------------------
+* fix broken egg [nituacor Refs #80022]
+
 1.3 (December 2016)
 -------------------
 * eea.zeohealthcheck [nituacor Refs #80022]
