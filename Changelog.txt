@@ -1,3 +1,7 @@
+1.6 (January 2017)
+-------------------
+* remove newrelic
+
 1.5 (December 2016)
 -------------------
 * fix broken egg [nituacor Refs #80022]
