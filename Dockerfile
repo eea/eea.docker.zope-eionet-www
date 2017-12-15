@@ -7,8 +7,8 @@ ENV EVENT_LOG_LEVEL=INFO \
     ZEO_ADDRESS=zeoserver:8100 \
     ZSERVER_THREADS=4 \
     BLOB_CACHE_SIZE=500000000 \
-    SETUPTOOLS=28.6.0 \
-    ZCBUILDOUT=2.5.3
+    SETUPTOOLS=33.1.1 \
+    ZCBUILDOUT=2.9.5
 
 COPY src/versions.cfg \
      src/sources.cfg \
