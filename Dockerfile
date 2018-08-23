@@ -1,4 +1,4 @@
-FROM eeacms/zope:2.13.22
+FROM eeacms/zope:2.13.26
 MAINTAINER "European Environment Agency (EEA): IDM2 A-Team" <eea-edw-a-team-alerts@googlegroups.com>
 
 ENV EVENT_LOG_LEVEL=INFO \

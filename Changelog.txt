@@ -1,3 +1,6 @@
+2.1.13 (2017-12-8)
+* - updated source image to eeacms/zope:2.13.26
+
 2.1.1 (2017-12-8)
 ------------------
 * - fixed AssertionError for some user accounts. [refs #90462]
