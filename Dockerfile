@@ -15,12 +15,19 @@ COPY src/versions.cfg \
      src/base.cfg $ZOPE_HOME/
 
 RUN mkdir -p $ZOPE_HOME/products \
-    && mkdir -p $ZOPE_HOME/var/log/ldap \
+    && mkdir -p $ZOPE_HOME/var/log/ldap/log \
+    && chown -R zope-www:zope-www $ZOPE_HOME/var/log/ldap \
     && mkdir -p $ZOPE_HOME/var/styles
 
 RUN svn co https://svn.eionet.europa.eu/repositories/Zope/bundles/Eionet/trunk products
 
 USER root
+
+RUN mv /docker-entrypoint.sh /zope-entrypoint.sh
+
+COPY entrypoint.sh /docker-entrypoint.sh
+
+
 RUN ./install.sh \
     chown -R 500:500 $ZOPE_HOME
 
