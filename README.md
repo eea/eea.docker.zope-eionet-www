@@ -13,6 +13,10 @@ Docker Zope Image used for the [EIONET website](http://eionet.europa.eu)
 * `BLOB_CACHE_SIZE` - Set the maximum size of the ZEO blob cache, in bytes.
 * `SETUPTOOLS` - setuptools version.
 * `ZCBUILDOUT` - zc.buildout version.
+* `LDAP_HOST` - LDAP host
+* `LDAP_ROOT_DNS` - LDAP root DNs to use for export
+* `LDAP_DN` - LDAP user DN 
+* `LDAP_PASSWORD` - LDAP user password
 
 
 ## Copyright and license
